@@ -47,11 +47,16 @@ var app = {
         console.log('Received Event: ' + id);
     }
 
-    function onDeviceReady(){
-    	setTimeout(function() { navigator.splashscreen.hide();}, 2000);
-    }
-
 
 };
+
+//     function onDeviceReady(){
+//         setTimeout(function() { navigator.splashscreen.hide();}, 2000);
+//     }
+
+//     document.addEventListener("deviceready", onDeviceReady, false);
+//     function onDeviceReady() {
+//     console.log(device.cordova);
+// }
 
 app.initialize();
